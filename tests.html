@@ -1,0 +1,872 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тесты - Физика ЕГЭ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Подключение MathJax для отображения формул -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Физика ЕГЭ</a>
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰</label>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="theory.html">Теория</a></li>
+                    <li><a href="problems.html">Задачи</a></li>
+                    <li><a href="tests.html" class="active">Тесты</a></li>
+                    <li><a href="handbook.html">Справочник</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="index.html">Главная</a> &gt; <span>Тесты</span>
+            </div>
+
+            <h1>Тренировочные тесты</h1>
+            <p>Выберите тему теста для самопроверки. В каждом тесте 15–18 вопросов, охватывающих все разделы кодификатора 2026 года. После прохождения вы можете открыть ответы и свериться.</p>
+            
+            <ul class="test-list">
+                <li><a href="#mech">Механика (18 вопросов)</a></li>
+                <li><a href="#molec">Молекулярная физика и термодинамика (16 вопросов)</a></li>
+                <li><a href="#electro">Электродинамика (18 вопросов)</a></li>
+                <li><a href="#quant">Квантовая физика (15 вопросов)</a></li>
+            </ul>
+
+            <!-- Тест по механике -->
+            <section id="mech">
+                <h2>Тест по механике <a href="theory.html#mech" class="theory-link">(к теории)</a></h2>
+                <p><em>Источники: ФИПИ 2026 [1], Лукашева и др. [2], Монастырский и др. [3]</em></p>
+                
+                <div class="test-question">
+                    <p>1. Тело движется равномерно по окружности. Как направлен вектор ускорения?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech1"> по касательной к окружности</label></li>
+                        <li><label><input type="radio" name="mech1"> к центру окружности</label></li>
+                        <li><label><input type="radio" name="mech1"> от центра окружности</label></li>
+                        <li><label><input type="radio" name="mech1"> ускорение равно нулю</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>2. Какая из величин является векторной?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech2"> масса</label></li>
+                        <li><label><input type="radio" name="mech2"> путь</label></li>
+                        <li><label><input type="radio" name="mech2"> скорость</label></li>
+                        <li><label><input type="radio" name="mech2"> время</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>3. Чему равно ускорение свободного падения на Земле (приблизительно)?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech3"> 9,8 м/с²</label></li>
+                        <li><label><input type="radio" name="mech3"> 10 м/с²</label></li>
+                        <li><label><input type="radio" name="mech3"> 0 м/с²</label></li>
+                        <li><label><input type="radio" name="mech3"> 1,6 м/с²</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>4. Закон сохранения импульса выполняется в системе, если...</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech4"> система замкнута (равнодействующая внешних сил равна нулю)</label></li>
+                        <li><label><input type="radio" name="mech4"> действуют внешние силы</label></li>
+                        <li><label><input type="radio" name="mech4"> есть трение</label></li>
+                        <li><label><input type="radio" name="mech4"> тело покоится</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>5. Как изменится период колебаний математического маятника, если длину нити увеличить в 4 раза?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech5"> увеличится в 2 раза</label></li>
+                        <li><label><input type="radio" name="mech5"> уменьшится в 2 раза</label></li>
+                        <li><label><input type="radio" name="mech5"> увеличится в 4 раза</label></li>
+                        <li><label><input type="radio" name="mech5"> не изменится</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>6. Момент силы равен произведению силы на:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech6"> путь</label></li>
+                        <li><label><input type="radio" name="mech6"> плечо силы</label></li>
+                        <li><label><input type="radio" name="mech6"> время</label></li>
+                        <li><label><input type="radio" name="mech6"> ускорение</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>7. При изотермическом процессе в идеальном газе:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech7"> pV = const</label></li>
+                        <li><label><input type="radio" name="mech7"> p/T = const</label></li>
+                        <li><label><input type="radio" name="mech7"> V/T = const</label></li>
+                        <li><label><input type="radio" name="mech7"> Q = 0</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>8. Первая космическая скорость для планеты массой M и радиусом R равна:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech8"> \(\sqrt{\frac{GM}{R}}\)</label></li>
+                        <li><label><input type="radio" name="mech8"> \(\sqrt{\frac{2GM}{R}}\)</label></li>
+                        <li><label><input type="radio" name="mech8"> \(\frac{GM}{R}\)</label></li>
+                        <li><label><input type="radio" name="mech8"> \(\frac{2GM}{R}\)</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>9. Тело брошено под углом к горизонту. В верхней точке траектории:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech9"> скорость равна нулю</label></li>
+                        <li><label><input type="radio" name="mech9"> ускорение равно нулю</label></li>
+                        <li><label><input type="radio" name="mech9"> скорость направлена горизонтально</label></li>
+                        <li><label><input type="radio" name="mech9"> скорость максимальна</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>10. Закон Гука для упругой деформации растяжения записывается как:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech10"> \(F = kx\)</label></li>
+                        <li><label><input type="radio" name="mech10"> \(F = -kx\)</label></li>
+                        <li><label><input type="radio" name="mech10"> \(F = \mu N\)</label></li>
+                        <li><label><input type="radio" name="mech10"> \(F = mg\)</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>11. Единицей измерения импульса в СИ является:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech11"> Н·м</label></li>
+                        <li><label><input type="radio" name="mech11"> кг·м/с</label></li>
+                        <li><label><input type="radio" name="mech11"> Н·с</label></li>
+                        <li><label><input type="radio" name="mech11"> Дж</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>12. При увеличении скорости тела в 2 раза его кинетическая энергия:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech12"> увеличится в 2 раза</label></li>
+                        <li><label><input type="radio" name="mech12"> увеличится в 4 раза</label></li>
+                        <li><label><input type="radio" name="mech12"> уменьшится в 2 раза</label></li>
+                        <li><label><input type="radio" name="mech12"> уменьшится в 4 раза</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>13. Условие плавания тела внутри жидкости:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech13"> \(\rho_т > \rho_ж\)</label></li>
+                        <li><label><input type="radio" name="mech13"> \(\rho_т < \rho_ж\)</label></li>
+                        <li><label><input type="radio" name="mech13"> \(\rho_т = \rho_ж\)</label></li>
+                        <li><label><input type="radio" name="mech13"> \(\rho_т = 0\)</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>14. Частота колебаний пружинного маятника равна 2 Гц. Чему равен период?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech14"> 0,5 с</label></li>
+                        <li><label><input type="radio" name="mech14"> 2 с</label></li>
+                        <li><label><input type="radio" name="mech14"> 0,2 с</label></li>
+                        <li><label><input type="radio" name="mech14"> 5 с</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>15. Длина волны равна 2 м, скорость волны 10 м/с. Частота колебаний равна:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech15"> 5 Гц</label></li>
+                        <li><label><input type="radio" name="mech15"> 20 Гц</label></li>
+                        <li><label><input type="radio" name="mech15"> 0,2 Гц</label></li>
+                        <li><label><input type="radio" name="mech15"> 10 Гц</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>16. Реактивное движение объясняется:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech16"> законом сохранения импульса</label></li>
+                        <li><label><input type="radio" name="mech16"> законом сохранения энергии</label></li>
+                        <li><label><input type="radio" name="mech16"> законом всемирного тяготения</label></li>
+                        <li><label><input type="radio" name="mech16"> законом Гука</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>17. Момент пары сил:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech17"> зависит от выбора точки приложения</label></li>
+                        <li><label><input type="radio" name="mech17"> не зависит от выбора точки приложения</label></li>
+                        <li><label><input type="radio" name="mech17"> всегда равен нулю</label></li>
+                        <li><label><input type="radio" name="mech17"> зависит от массы тела</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>18. Тело массой 2 кг поднято на высоту 5 м. Его потенциальная энергия (g=10 м/с²) равна:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="mech18"> 100 Дж</label></li>
+                        <li><label><input type="radio" name="mech18"> 10 Дж</label></li>
+                        <li><label><input type="radio" name="mech18"> 50 Дж</label></li>
+                        <li><label><input type="radio" name="mech18"> 20 Дж</label></li>
+                    </ul>
+                </div>
+
+                <div class="answers-spoiler">
+                    <input type="checkbox" id="show-answers-mech" class="spoiler-toggle">
+                    <label for="show-answers-mech" class="spoiler-label">Показать ответы</label>
+                    <div class="spoiler-content">
+                        <p><strong>Ответы к тесту по механике:</strong></p>
+                        <ol>
+                            <li>К центру окружности (центростремительное ускорение).</li>
+                            <li>Скорость.</li>
+                            <li>9,8 м/с² (или 10 м/с² при округлении).</li>
+                            <li>Система замкнута (равнодействующая внешних сил равна нулю).</li>
+                            <li>Увеличится в 2 раза (T ~ √L).</li>
+                            <li>Плечо силы.</li>
+                            <li>pV = const.</li>
+                            <li>\(\sqrt{\frac{GM}{R}}\).</li>
+                            <li>Скорость направлена горизонтально.</li>
+                            <li>F = -kx (закон Гука с учётом направления).</li>
+                            <li>кг·м/с (или Н·с, это одно и то же).</li>
+                            <li>Увеличится в 4 раза (E ~ v²).</li>
+                            <li>ρ_т = ρ_ж.</li>
+                            <li>0,5 с (T = 1/ν).</li>
+                            <li>5 Гц (ν = v/λ).</li>
+                            <li>Закон сохранения импульса.</li>
+                            <li>Не зависит от выбора точки приложения.</li>
+                            <li>100 Дж (E = mgh).</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Тест по молекулярной физике и термодинамике -->
+            <section id="molec">
+                <h2>Тест по молекулярной физике и термодинамике <a href="theory.html#molec" class="theory-link">(к теории)</a></h2>
+                <p><em>Источники: ФИПИ 2026 [1], Лукашева и др. [2], Монастырский и др. [3]</em></p>
+                
+                <div class="test-question">
+                    <p>1. Какое уравнение называется уравнением состояния идеального газа?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec1"> pV = νRT</label></li>
+                        <li><label><input type="radio" name="molec1"> pV = const</label></li>
+                        <li><label><input type="radio" name="molec1"> p/T = const</label></li>
+                        <li><label><input type="radio" name="molec1"> V/T = const</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>2. Чему равна постоянная Авогадро?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec2"> 6,02·10²³ моль⁻¹</label></li>
+                        <li><label><input type="radio" name="molec2"> 1,38·10⁻²³ Дж/К</label></li>
+                        <li><label><input type="radio" name="molec2"> 8,31 Дж/(моль·К)</label></li>
+                        <li><label><input type="radio" name="molec2"> 3·10⁸ м/с</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>3. При изохорном процессе в идеальном газе:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec3"> pV = const</label></li>
+                        <li><label><input type="radio" name="molec3"> p/T = const</label></li>
+                        <li><label><input type="radio" name="molec3"> V/T = const</label></li>
+                        <li><label><input type="radio" name="molec3"> Q = 0</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>4. Внутренняя энергия идеального газа зависит только от...</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec4"> температуры</label></li>
+                        <li><label><input type="radio" name="molec4"> давления</label></li>
+                        <li><label><input type="radio" name="molec4"> объёма</label></li>
+                        <li><label><input type="radio" name="molec4"> массы</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>5. Первый закон термодинамики для изобарного процесса имеет вид:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec5"> Q = ΔU</label></li>
+                        <li><label><input type="radio" name="molec5"> Q = A</label></li>
+                        <li><label><input type="radio" name="molec5"> Q = ΔU + A</label></li>
+                        <li><label><input type="radio" name="molec5"> ΔU = -A</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>6. Относительная влажность воздуха определяется формулой:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec6"> φ = p/p_н</label></li>
+                        <li><label><input type="radio" name="molec6"> φ = p_н/p</label></li>
+                        <li><label><input type="radio" name="molec6"> φ = ρ/ρ_н</label></li>
+                        <li><label><input type="radio" name="molec6"> оба варианта 1 и 3 верны</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>7. Температура кипения жидкости зависит от:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec7"> только от рода жидкости</label></li>
+                        <li><label><input type="radio" name="molec7"> от рода жидкости и внешнего давления</label></li>
+                        <li><label><input type="radio" name="molec7"> только от внешнего давления</label></li>
+                        <li><label><input type="radio" name="molec7"> не зависит ни от чего</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>8. При адиабатном расширении идеального газа:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec8"> его температура увеличивается</label></li>
+                        <li><label><input type="radio" name="molec8"> его температура уменьшается</label></li>
+                        <li><label><input type="radio" name="molec8"> температура не меняется</label></li>
+                        <li><label><input type="radio" name="molec8"> давление не меняется</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>9. КПД идеальной тепловой машины, работающей по циклу Карно, определяется формулой:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec9"> η = (Q₁ - Q₂)/Q₁</label></li>
+                        <li><label><input type="radio" name="molec9"> η = (T₁ - T₂)/T₁</label></li>
+                        <li><label><input type="radio" name="molec9"> η = 1 - T₂/T₁</label></li>
+                        <li><label><input type="radio" name="molec9"> все вышеперечисленные верны</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>10. Давление идеального газа можно вычислить по формуле:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec10"> p = (1/3)nm₀v²</label></li>
+                        <li><label><input type="radio" name="molec10"> p = nkT</label></li>
+                        <li><label><input type="radio" name="molec10"> p = (2/3)nE</label></li>
+                        <li><label><input type="radio" name="molec10"> все вышеперечисленные верны</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>11. Единицей измерения удельной теплоты парообразования в СИ является:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec11"> Дж/кг</label></li>
+                        <li><label><input type="radio" name="molec11"> Дж/моль</label></li>
+                        <li><label><input type="radio" name="molec11"> Дж</label></li>
+                        <li><label><input type="radio" name="molec11"> Дж/К</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>12. Если концентрация молекул увеличилась в 2 раза, а средняя квадратичная скорость уменьшилась в 2 раза, то давление идеального газа:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec12"> увеличится в 2 раза</label></li>
+                        <li><label><input type="radio" name="molec12"> уменьшится в 2 раза</label></li>
+                        <li><label><input type="radio" name="molec12"> не изменится</label></li>
+                        <li><label><input type="radio" name="molec12"> увеличится в 4 раза</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>13. Процесс, в котором система не получает и не отдаёт теплоты, называется:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec13"> изотермическим</label></li>
+                        <li><label><input type="radio" name="molec13"> изобарным</label></li>
+                        <li><label><input type="radio" name="molec13"> изохорным</label></li>
+                        <li><label><input type="radio" name="molec13"> адиабатным</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>14. Точка росы — это температура, при которой:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec14"> водяной пар становится насыщенным</label></li>
+                        <li><label><input type="radio" name="molec14"> начинается кипение воды</label></li>
+                        <li><label><input type="radio" name="molec14"> относительная влажность равна 0%</label></li>
+                        <li><label><input type="radio" name="molec14"> пар превращается в лёд</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>15. Внутренняя энергия одноатомного идеального газа вычисляется по формуле:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec15"> U = (3/2)νRT</label></li>
+                        <li><label><input type="radio" name="molec15"> U = (5/2)νRT</label></li>
+                        <li><label><input type="radio" name="molec15"> U = νRT</label></li>
+                        <li><label><input type="radio" name="molec15"> U = (3/2)kT</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>16. При изобарном нагревании идеального газа он совершает работу. Эта работа равна:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="molec16"> A = pΔV</label></li>
+                        <li><label><input type="radio" name="molec16"> A = νRΔT</label></li>
+                        <li><label><input type="radio" name="molec16"> оба варианта верны</label></li>
+                        <li><label><input type="radio" name="molec16"> A = 0</label></li>
+                    </ul>
+                </div>
+
+                <div class="answers-spoiler">
+                    <input type="checkbox" id="show-answers-molec" class="spoiler-toggle">
+                    <label for="show-answers-molec" class="spoiler-label">Показать ответы</label>
+                    <div class="spoiler-content">
+                        <p><strong>Ответы к тесту по молекулярной физике и термодинамике:</strong></p>
+                        <ol>
+                            <li>pV = νRT.</li>
+                            <li>6,02·10²³ моль⁻¹.</li>
+                            <li>p/T = const.</li>
+                            <li>Температуры.</li>
+                            <li>Q = ΔU + A.</li>
+                            <li>Оба варианта 1 и 3 верны (φ = p/p_н = ρ/ρ_н).</li>
+                            <li>От рода жидкости и внешнего давления.</li>
+                            <li>Его температура уменьшается.</li>
+                            <li>Все вышеперечисленные верны.</li>
+                            <li>Все вышеперечисленные верны.</li>
+                            <li>Дж/кг.</li>
+                            <li>Уменьшится в 2 раза (p ~ n·v²).</li>
+                            <li>Адиабатным.</li>
+                            <li>Водяной пар становится насыщенным.</li>
+                            <li>U = (3/2)νRT.</li>
+                            <li>Оба варианта верны (A = pΔV = νRΔT).</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Тест по электродинамике -->
+            <section id="electro">
+                <h2>Тест по электродинамике <a href="theory.html#electro" class="theory-link">(к теории)</a></h2>
+                <p><em>Источники: ФИПИ 2026 [1], Лукашева и др. [2], Монастырский и др. [3]</em></p>
+                
+                <div class="test-question">
+                    <p>1. Как взаимодействуют одноимённые электрические заряды?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro1"> притягиваются</label></li>
+                        <li><label><input type="radio" name="electro1"> отталкиваются</label></li>
+                        <li><label><input type="radio" name="electro1"> не взаимодействуют</label></li>
+                        <li><label><input type="radio" name="electro1"> зависит от среды</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>2. Единица измерения электрического напряжения в СИ:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro2"> Ампер</label></li>
+                        <li><label><input type="radio" name="electro2"> Вольт</label></li>
+                        <li><label><input type="radio" name="electro2"> Ом</label></li>
+                        <li><label><input type="radio" name="electro2"> Ватт</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>3. Закон Ома для участка цепи: I = ?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro3"> U/R</label></li>
+                        <li><label><input type="radio" name="electro3"> R/U</label></li>
+                        <li><label><input type="radio" name="electro3"> UR</label></li>
+                        <li><label><input type="radio" name="electro3"> U²R</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>4. Что называется электродвижущей силой (ЭДС)?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro4"> работа сторонних сил по перемещению единичного положительного заряда</label></li>
+                        <li><label><input type="radio" name="electro4"> напряжение на зажимах источника</label></li>
+                        <li><label><input type="radio" name="electro4"> сила тока в цепи</label></li>
+                        <li><label><input type="radio" name="electro4"> сопротивление источника</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>5. Ёмкость плоского конденсатора зависит от:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro5"> площади пластин и расстояния между ними</label></li>
+                        <li><label><input type="radio" name="electro5"> только от площади пластин</label></li>
+                        <li><label><input type="radio" name="electro5"> только от расстояния между пластинами</label></li>
+                        <li><label><input type="radio" name="electro5"> от напряжения на конденсаторе</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>6. Сила Ампера, действующая на проводник с током в магнитном поле, максимальна, когда:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro6"> проводник расположен параллельно линиям индукции</label></li>
+                        <li><label><input type="radio" name="electro6"> проводник расположен перпендикулярно линиям индукции</label></li>
+                        <li><label><input type="radio" name="electro6"> проводник расположен под углом 45°</label></li>
+                        <li><label><input type="radio" name="electro6"> сила Ампера не зависит от ориентации</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>7. Явление электромагнитной индукции заключается в:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro7"> возникновении тока в замкнутом контуре при изменении магнитного потока</label></li>
+                        <li><label><input type="radio" name="electro7"> возникновении тока в проводнике при его движении в магнитном поле</label></li>
+                        <li><label><input type="radio" name="electro7"> взаимодействии проводников с током</label></li>
+                        <li><label><input type="radio" name="electro7"> нагревании проводника током</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>8. Правило Ленца позволяет определить:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro8"> величину ЭДС индукции</label></li>
+                        <li><label><input type="radio" name="electro8"> направление индукционного тока</label></li>
+                        <li><label><input type="radio" name="electro8"> величину индукционного тока</label></li>
+                        <li><label><input type="radio" name="electro8"> скорость изменения магнитного потока</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>9. Индуктивность катушки измеряется в:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro9"> Генри (Гн)</label></li>
+                        <li><label><input type="radio" name="electro9"> Фарадах (Ф)</label></li>
+                        <li><label><input type="radio" name="electro9"> Веберах (Вб)</label></li>
+                        <li><label><input type="radio" name="electro9"> Теслах (Тл)</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>10. Формула Томсона для периода колебаний в колебательном контуре:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro10"> T = 2π√(LC)</label></li>
+                        <li><label><input type="radio" name="electro10"> T = 2π√(L/C)</label></li>
+                        <li><label><input type="radio" name="electro10"> T = 2π√(C/L)</label></li>
+                        <li><label><input type="radio" name="electro10"> T = 2π/√(LC)</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>11. Скорость электромагнитных волн в вакууме равна:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro11"> 3·10⁸ м/с</label></li>
+                        <li><label><input type="radio" name="electro11"> 3·10⁶ м/с</label></li>
+                        <li><label><input type="radio" name="electro11"> 3·10⁵ км/с</label></li>
+                        <li><label><input type="radio" name="electro11"> зависит от частоты</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>12. Показатель преломления среды показывает:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro12"> во сколько раз скорость света в среде меньше, чем в вакууме</label></li>
+                        <li><label><input type="radio" name="electro12"> во сколько раз скорость света в вакууме меньше, чем в среде</label></li>
+                        <li><label><input type="radio" name="electro12"> отношение синуса угла падения к синусу угла преломления</label></li>
+                        <li><label><input type="radio" name="electro12"> верны 1 и 3</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>13. При последовательном соединении конденсаторов общая ёмкость:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro13"> меньше меньшей из ёмкостей</label></li>
+                        <li><label><input type="radio" name="electro13"> больше большей из ёмкостей</label></li>
+                        <li><label><input type="radio" name="electro13"> равна сумме ёмкостей</label></li>
+                        <li><label><input type="radio" name="electro13"> равна среднему арифметическому</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>14. Закон Джоуля-Ленца записывается как:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro14"> Q = I²Rt</label></li>
+                        <li><label><input type="radio" name="electro14"> Q = UIt</label></li>
+                        <li><label><input type="radio" name="electro14"> Q = (U²/R)t</label></li>
+                        <li><label><input type="radio" name="electro14"> все вышеперечисленные верны</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>15. Сила Лоренца, действующая на заряженную частицу в магнитном поле:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro15"> всегда перпендикулярна скорости частицы</label></li>
+                        <li><label><input type="radio" name="electro15"> всегда направлена вдоль скорости</label></li>
+                        <li><label><input type="radio" name="electro15"> всегда совершает работу</label></li>
+                        <li><label><input type="radio" name="electro15"> не зависит от заряда</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>16. Энергия магнитного поля катушки индуктивности вычисляется по формуле:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro16"> W = LI²/2</label></li>
+                        <li><label><input type="radio" name="electro16"> W = CU²/2</label></li>
+                        <li><label><input type="radio" name="electro16"> W = L²I/2</label></li>
+                        <li><label><input type="radio" name="electro16"> W = LI</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>17. Полное внутреннее отражение света наблюдается при переходе:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro17"> из оптически менее плотной среды в более плотную</label></li>
+                        <li><label><input type="radio" name="electro17"> из оптически более плотной среды в менее плотную</label></li>
+                        <li><label><input type="radio" name="electro17"> в вакууме</label></li>
+                        <li><label><input type="radio" name="electro17"> при любом переходе</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>18. Если предмет находится за двойным фокусом собирающей линзы, то его изображение:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="electro18"> действительное, уменьшенное, перевёрнутое</label></li>
+                        <li><label><input type="radio" name="electro18"> действительное, увеличенное, перевёрнутое</label></li>
+                        <li><label><input type="radio" name="electro18"> мнимое, увеличенное, прямое</label></li>
+                        <li><label><input type="radio" name="electro18"> действительное, равное, перевёрнутое</label></li>
+                    </ul>
+                </div>
+
+                <div class="answers-spoiler">
+                    <input type="checkbox" id="show-answers-electro" class="spoiler-toggle">
+                    <label for="show-answers-electro" class="spoiler-label">Показать ответы</label>
+                    <div class="spoiler-content">
+                        <p><strong>Ответы к тесту по электродинамике:</strong></p>
+                        <ol>
+                            <li>Отталкиваются.</li>
+                            <li>Вольт.</li>
+                            <li>U/R.</li>
+                            <li>Работа сторонних сил по перемещению единичного положительного заряда.</li>
+                            <li>Площади пластин и расстояния между ними (а также от диэлектрика).</li>
+                            <li>Проводник расположен перпендикулярно линиям индукции.</li>
+                            <li>Возникновении тока в замкнутом контуре при изменении магнитного потока.</li>
+                            <li>Направление индукционного тока.</li>
+                            <li>Генри (Гн).</li>
+                            <li>T = 2π√(LC).</li>
+                            <li>3·10⁸ м/с (и 3·10⁵ км/с).</li>
+                            <li>Верны 1 и 3.</li>
+                            <li>Меньше меньшей из ёмкостей.</li>
+                            <li>Все вышеперечисленные верны (это разные формы).</li>
+                            <li>Всегда перпендикулярна скорости частицы (поэтому не совершает работу).</li>
+                            <li>W = LI²/2.</li>
+                            <li>Из оптически более плотной среды в менее плотную.</li>
+                            <li>Действительное, уменьшенное, перевёрнутое.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Тест по квантовой физике -->
+            <section id="quant">
+                <h2>Тест по квантовой физике <a href="theory.html#quant" class="theory-link">(к теории)</a></h2>
+                <p><em>Источники: ФИПИ 2026 [1], Лукашева и др. [2], Монастырский и др. [3]</em></p>
+                
+                <div class="test-question">
+                    <p>1. Кто впервые объяснил явление фотоэффекта на основе квантовой теории?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant1"> Г. Герц</label></li>
+                        <li><label><input type="radio" name="quant1"> А.Г. Столетов</label></li>
+                        <li><label><input type="radio" name="quant1"> А. Эйнштейн</label></li>
+                        <li><label><input type="radio" name="quant1"> Э. Резерфорд</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>2. Уравнение Эйнштейна для фотоэффекта имеет вид:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant2"> hν = Aвых + mv²/2</label></li>
+                        <li><label><input type="radio" name="quant2"> hν = Aвых - mv²/2</label></li>
+                        <li><label><input type="radio" name="quant2"> hν = mv²/2</label></li>
+                        <li><label><input type="radio" name="quant2"> hν = Aвых</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>3. Чему равна энергия фотона с частотой ν?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant3"> hν</label></li>
+                        <li><label><input type="radio" name="quant3"> h/ν</label></li>
+                        <li><label><input type="radio" name="quant3"> hc/ν</label></li>
+                        <li><label><input type="radio" name="quant3"> hν/c</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>4. Красная граница фотоэффекта — это:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant4"> минимальная частота света, при которой возможен фотоэффект</label></li>
+                        <li><label><input type="radio" name="quant4"> максимальная частота света, при которой возможен фотоэффект</label></li>
+                        <li><label><input type="radio" name="quant4"> минимальная длина волны, вызывающая фотоэффект</label></li>
+                        <li><label><input type="radio" name="quant4"> максимальная скорость фотоэлектронов</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>5. Постулаты Бора утверждают, что:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant5"> атом может находиться только в стационарных состояниях</label></li>
+                        <li><label><input type="radio" name="quant5"> при переходе из одного стационарного состояния в другое излучается или поглощается фотон</label></li>
+                        <li><label><input type="radio" name="quant5"> оба варианта верны</label></li>
+                        <li><label><input type="radio" name="quant5"> атом может иметь любую энергию</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>6. Импульс фотона равен:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant6"> p = h/λ</label></li>
+                        <li><label><input type="radio" name="quant6"> p = hν</label></li>
+                        <li><label><input type="radio" name="quant6"> p = hc/λ</label></li>
+                        <li><label><input type="radio" name="quant6"> p = hλ</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>7. Ядро атома состоит из:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant7"> протонов и нейтронов</label></li>
+                        <li><label><input type="radio" name="quant7"> протонов и электронов</label></li>
+                        <li><label><input type="radio" name="quant7"> нейтронов и электронов</label></li>
+                        <li><label><input type="radio" name="quant7"> только протонов</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>8. Закон радиоактивного распада имеет вид:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant8"> N = N₀·2^{-t/T}</label></li>
+                        <li><label><input type="radio" name="quant8"> N = N₀·e^{-λt}</label></li>
+                        <li><label><input type="radio" name="quant8"> оба варианта верны</label></li>
+                        <li><label><input type="radio" name="quant8"> N = N₀·2^{t/T}</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>9. Дефект масс — это:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant9"> разность между суммой масс нуклонов и массой ядра</label></li>
+                        <li><label><input type="radio" name="quant9"> разность между массой ядра и суммой масс нуклонов</label></li>
+                        <li><label><input type="radio" name="quant9"> масса, соответствующая энергии связи</label></li>
+                        <li><label><input type="radio" name="quant9"> разность масс протона и нейтрона</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>10. Какое излучение имеет наибольшую проникающую способность?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant10"> α-излучение</label></li>
+                        <li><label><input type="radio" name="quant10"> β-излучение</label></li>
+                        <li><label><input type="radio" name="quant10"> γ-излучение</label></li>
+                        <li><label><input type="radio" name="quant10"> все примерно одинаковы</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>11. При β-распаде из ядра вылетает:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant11"> электрон (позитрон)</label></li>
+                        <li><label><input type="radio" name="quant11"> ядро гелия</label></li>
+                        <li><label><input type="radio" name="quant11"> нейтрон</label></li>
+                        <li><label><input type="radio" name="quant11"> протон</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>12. Энергия связи ядра вычисляется по формуле:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant12"> ΔE = Δm·c²</label></li>
+                        <li><label><input type="radio" name="quant12"> ΔE = Δm/c²</label></li>
+                        <li><label><input type="radio" name="quant12"> ΔE = hν</label></li>
+                        <li><label><input type="radio" name="quant12"> ΔE = mc²</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>13. Период полураспада изотопа 8 суток. Какая доля атомов останется через 24 суток?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant13"> 1/8</label></li>
+                        <li><label><input type="radio" name="quant13"> 1/4</label></li>
+                        <li><label><input type="radio" name="quant13"> 1/2</label></li>
+                        <li><label><input type="radio" name="quant13"> 1/16</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>14. Кто предложил планетарную модель атома?</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant14"> Э. Резерфорд</label></li>
+                        <li><label><input type="radio" name="quant14"> Н. Бор</label></li>
+                        <li><label><input type="radio" name="quant14"> Дж. Томсон</label></li>
+                        <li><label><input type="radio" name="quant14"> М. Планк</label></li>
+                    </ul>
+                </div>
+
+                <div class="test-question">
+                    <p>15. Лазерное излучение характеризуется:</p>
+                    <ul class="options">
+                        <li><label><input type="radio" name="quant15"> когерентностью</label></li>
+                        <li><label><input type="radio" name="quant15"> монохроматичностью</label></li>
+                        <li><label><input type="radio" name="quant15"> высокой направленностью</label></li>
+                        <li><label><input type="radio" name="quant15"> всеми вышеперечисленными свойствами</label></li>
+                    </ul>
+                </div>
+
+                <div class="answers-spoiler">
+                    <input type="checkbox" id="show-answers-quant" class="spoiler-toggle">
+                    <label for="show-answers-quant" class="spoiler-label">Показать ответы</label>
+                    <div class="spoiler-content">
+                        <p><strong>Ответы к тесту по квантовой физике:</strong></p>
+                        <ol>
+                            <li>А. Эйнштейн (хотя открыл Герц, объяснил Эйнштейн).</li>
+                            <li>hν = Aвых + mv²/2.</li>
+                            <li>hν.</li>
+                            <li>Минимальная частота света, при которой возможен фотоэффект.</li>
+                            <li>Оба варианта верны.</li>
+                            <li>p = h/λ.</li>
+                            <li>Протонов и нейтронов.</li>
+                            <li>Оба варианта верны (N = N₀·2^{-t/T} = N₀·e^{-λt}).</li>
+                            <li>Разность между суммой масс нуклонов и массой ядра.</li>
+                            <li>γ-излучение.</li>
+                            <li>Электрон (позитрон).</li>
+                            <li>ΔE = Δm·c².</li>
+                            <li>1/8 (прошло 3 периода полураспада).</li>
+                            <li>Э. Резерфорд.</li>
+                            <li>Всеми вышеперечисленными свойствами.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+           
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Проект по физике. Все материалы носят ознакомительный характер и составлены на основе официальных источников ФИПИ.</p>
+            <nav class="footer-nav">
+                <a href="index.html">Главная</a> |
+                <a href="theory.html">Теория</a> |
+                <a href="problems.html">Задачи</a> |
+                <a href="tests.html">Тесты</a> |
+                <a href="handbook.html">Справочник</a> |
+                <a href="about.html">О проекте</a>
+            </nav>
+            <div class="sitemap">
+                <a href="theory.html#mech">Механика</a> |
+                <a href="theory.html#molec">Молекулярная физика</a> |
+                <a href="theory.html#electro">Электродинамика</a> |
+                <a href="theory.html#quant">Квантовая физика</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

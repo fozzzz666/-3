@@ -1,0 +1,106 @@
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Справочник - Физика ЕГЭ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Физика ЕГЭ</a>
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰</label>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="theory.html">Теория</a></li>
+                    <li><a href="problems.html">Задачи</a></li>
+                    <li><a href="tests.html">Тесты</a></li>
+                    <li><a href="handbook.html" class="active">Справочник</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="index.html">Главная</a> &gt; <span>Справочник</span>
+            </div>
+
+            <h1>Справочные материалы</h1>
+            
+            <h2>Физические константы</h2>
+            <div class="table-responsive">
+                <table>
+                    <tr><th>Величина</th><th>Обозначение</th><th>Значение</th></tr>
+                    <tr><td>Скорость света в вакууме</td><td>c</td><td>3·10⁸ м/с</td></tr>
+                    <tr><td>Постоянная Планка</td><td>h</td><td>6,63·10⁻³⁴ Дж·с</td></tr>
+                    <tr><td>Гравитационная постоянная</td><td>G</td><td>6,67·10⁻¹¹ Н·м²/кг²</td></tr>
+                    <tr><td>Заряд электрона</td><td>e</td><td>1,6·10⁻¹⁹ Кл</td></tr>
+                    <tr><td>Масса электрона</td><td>mₑ</td><td>9,1·10⁻³¹ кг</td></tr>
+                    <tr><td>Постоянная Авогадро</td><td>Nₐ</td><td>6,02·10²³ моль⁻¹</td></tr>
+                    <tr><td>Универсальная газовая постоянная</td><td>R</td><td>8,31 Дж/(моль·К)</td></tr>
+                    <tr><td>Постоянная Больцмана</td><td>k</td><td>1,38·10⁻²³ Дж/К</td></tr>
+                </table>
+            </div>
+
+            <h2>Десятичные приставки</h2>
+            <div class="table-responsive">
+                <table>
+                    <tr><th>Приставка</th><th>Обозначение</th><th>Множитель</th></tr>
+                    <tr><td>гига</td><td>Г</td><td>10⁹</td></tr>
+                    <tr><td>мега</td><td>М</td><td>10⁶</td></tr>
+                    <tr><td>кило</td><td>к</td><td>10³</td></tr>
+                    <tr><td>гекто</td><td>г</td><td>10²</td></tr>
+                    <tr><td>деци</td><td>д</td><td>10⁻¹</td></tr>
+                    <tr><td>санти</td><td>с</td><td>10⁻²</td></tr>
+                    <tr><td>милли</td><td>м</td><td>10⁻³</td></tr>
+                    <tr><td>микро</td><td>мк</td><td>10⁻⁶</td></tr>
+                    <tr><td>нано</td><td>н</td><td>10⁻⁹</td></tr>
+                    <tr><td>пико</td><td>п</td><td>10⁻¹²</td></tr>
+                </table>
+            </div>
+
+            <h2>Основные формулы</h2>
+            <div class="table-responsive">
+                <table>
+                    <tr><th>Раздел</th><th>Формула</th></tr>
+                    <tr><td>Кинематика</td><td>v = v₀ + at; s = v₀t + at²/2; s = (v² - v₀²)/(2a)</td></tr>
+                    <tr><td>Динамика</td><td>F = ma; Fтр = μN; Fупр = -kx</td></tr>
+                    <tr><td>Законы сохранения</td><td>p = mv; Eк = mv²/2; Eп = mgh; Eп = kx²/2</td></tr>
+                    <tr><td>МКТ и термодинамика</td><td>pV = νRT; ΔU = Q - A; η = (Q₁ - Q₂)/Q₁</td></tr>
+                    <tr><td>Электродинамика</td><td>F = k|q₁q₂|/r²; E = F/q; I = U/R; A = UIt; Q = I²Rt</td></tr>
+                    <tr><td>Квантовая физика</td><td>hν = A + mv²/2; E = hν; p = h/λ</td></tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+        
+            <nav class="footer-nav">
+                <a href="index.html">Главная</a> |
+                <a href="theory.html">Теория</a> |
+                <a href="problems.html">Задачи</a> |
+                <a href="tests.html">Тесты</a> |
+                <a href="handbook.html">Справочник</a> |
+                <a href="about.html">О проекте</a>
+            </nav>
+            <div class="sitemap">
+                <a href="theory.html#mech">Механика</a> |
+                <a href="theory.html#molec">Молекулярная физика</a> |
+                <a href="theory.html#electro">Электродинамика</a> |
+                <a href="theory.html#quant">Квантовая физика</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
